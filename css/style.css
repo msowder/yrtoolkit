@@ -56,3 +56,25 @@ a.ui-button:active,
 .projectUsername {
   color: black;
 }
+
+.enlargeImage {
+  cursor: pointer;
+/*  max-height: 300px;
+  max-width: 250px;*/
+}
+
+.zoomIcon {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  opacity: 0;
+}
+
+.tutorialDiv:hover .enlargeImage {
+  opacity: 0.75; 
+}
+
+.tutorialDiv:hover .zoomIcon {
+  opacity: 0.75; 
+}
+
